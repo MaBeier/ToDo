@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>my todo</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+</head>
+<body>
+<div class="msg">
+<span class="msg-content"></span>
+<span class="anchor confirmed">知道了</span>
+</div>
+<div class="container"><!--  总容器开始 -->
+<h1>我的ToDo</h1>
+	<form class="add-task">
+		<input name="content" type="text" placeholder="..我的ToDo" autofocus="autofocus" autocomplete="off">
+		<button type="submit">submit</button>
+	</form>
+	<div class="task-list"><!--  清单列表开始 -->
+		<!-- <div class="task-item"> --><!--  任务开始 -->
+			<!-- <span><input type="checkbox"></span>
+			<sapn class="task-content">item content 1</span>
+			<span>delete</span>
+			<span>detail</span>
+		</div> --><!--  任务结束 -->
+	</div><!--  清单列表结束 -->
+	<div class="task-detail-mask"></div>
+
+	<div class="task-detail"><!--  任务详情开始 -->
+		
+	</div><!--  任务详情结束 -->
+</div><!--  总容器结束 -->
+
+<video  class='alerter' src="XHR.mp3"></video>
+
+<script type="text/javascript" src='js/jquery-3.2.1.min.js' ></script>
+<script type="text/javascript" src='node_modules/store/store.js'></script>
+<script type="text/javascript" src='node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.js'></script>
+<script type="text/javascript" src='js/base.js' ></script>
+</body>
+</html>
